@@ -104,7 +104,7 @@ export const storeProducts = [
   {
     id: 9,
     title: "Agora hoodie Green",
-    img: "img/product-9.png",
+    img: "img/agora hoodies-13.png",
     price: 19.99,
     company: "Agora",
     info:
@@ -116,7 +116,7 @@ export const storeProducts = [
   {
     id: 10,
     title: "Agora hoodie Red",
-    img: "img/product-8.png",
+    img: "img/agora hoodies-10.png",
     price: 19.99,
     company: "Agora",
     info:
