@@ -10,6 +10,10 @@ function PayPal({value}) {
             onSuccess={(details, data) => {
                 alert("Transaction completed by " + details.payer.name.given_name);
             }}
+            options={{
+                clientId: "Aab_RdejMdXjDlHG51OYRb3-ZxThULKV-RBmZdChJ-lKuqwFcu2snegezKz8fRzE29fltHO_Jjl4nmro",
+                currency: "EUR"
+            }}
         />
     );
 }
