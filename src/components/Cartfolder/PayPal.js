@@ -11,7 +11,7 @@ function PayPal({value}) {
                 alert("Transaction completed by " + details.payer.name.given_name);
             }}
             options={{
-                clientId: "Aab_RdejMdXjDlHG51OYRb3-ZxThULKV-RBmZdChJ-lKuqwFcu2snegezKz8fRzE29fltHO_Jjl4nmro",
+                // clientId: "Aab_RdejMdXjDlHG51OYRb3-ZxThULKV-RBmZdChJ-lKuqwFcu2snegezKz8fRzE29fltHO_Jjl4nmro",
                 currency: "EUR"
             }}
         />
